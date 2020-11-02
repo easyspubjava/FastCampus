@@ -9,7 +9,7 @@ public class ForTest {
 		
 		for( int i = 0 ; i<10; i++, count++) {  //10¹ø
 			sum += count;
-			//count++;
+			count++;
 		}
 		System.out.println(sum);
 		
