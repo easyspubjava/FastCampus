@@ -1,4 +1,4 @@
-package ch07;
+package ch08;
 
 public class GenericMethod {
 
