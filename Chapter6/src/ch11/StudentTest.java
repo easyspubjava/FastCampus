@@ -22,5 +22,4 @@ public class StudentTest {
 		
 		Student student = new Student("James");
 	}
-	
 }
