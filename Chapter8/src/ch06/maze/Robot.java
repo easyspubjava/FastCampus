@@ -105,8 +105,6 @@ public class Robot{
 			System.out.print("\n");
 		}
 		
-		
-		
 		int i = 0;
 		while(isEmpty == false) {
 			Move move = stack.pop();
