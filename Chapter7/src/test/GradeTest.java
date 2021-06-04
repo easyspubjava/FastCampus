@@ -25,15 +25,15 @@ public class GradeTest {
 		test.creatSubject();
 		test.createStudent();
 		
-		String report = test.gradeReport.getReport(); //¼ºÀû °á°ú »ı¼º
-		System.out.println(report); // Ãâ·Â		
+		String report = test.gradeReport.getReport(); //ì„±ì  ê²°ê³¼ ìƒì„±
+		System.out.println(report); // ì¶œë ¥		
 		
 	}
 	
 	public void creatSubject(){
 		
-		korean = new Subject("±¹¾î", Define.KOREAN);
-		math = new Subject("¼öÇĞ", Define.MATH);
+		korean = new Subject("êµ­ì–´", Define.KOREAN);
+		math = new Subject("ìˆ˜í•™", Define.MATH);
 		
 		goodSchool.addSubject(korean);
 		goodSchool.addSubject(math);
@@ -66,7 +66,7 @@ public class GradeTest {
 				student = new Student(id, name, math );
 			}
 			else {
-				System.out.println("Àü°ø °ú¸ñ ¿À·ù ÀÔ´Ï´Ù");
+				System.out.println("ì „ê³µ ê³¼ëª© ì˜¤ë¥˜ ì…ë‹ˆë‹¤");
 				return;
 			}
 			
@@ -80,7 +80,7 @@ public class GradeTest {
 		scanner.close();
 	}
 	
-	//°ú¸ñº° ¼ºÀû ÀÔ·Â
+	//ê³¼ëª©ë³„ ì„±ì  ì…ë ¥
 	public void addScoreForStudent(Student student, Subject subject, int point){
 			
 		Score score = new Score(student.getStudentId(), subject, point);

@@ -17,14 +17,14 @@ public class FileInputStreamTest3 {
 				for(int k= 0; k<i; k++){
 					System.out.print((char)bs[k]);
 				}
-				System.out.println(": " +i + "¹ÙÀÌÆ® ÀÐÀ½" );
+				System.out.println(": " +i + "ë°”ì´íŠ¸ ì½ìŒ" );
 			}
 			
 			/* while ( (i = fis.read(bs, 1, 9)) != -1){
 				for(int k= 0; k<i; k++){
 					System.out.print((char)bs[k]);
 				}
-				System.out.println(": " +i + "¹ÙÀÌÆ® ÀÐÀ½" );
+				System.out.println(": " +i + "ë°”ì´íŠ¸ ì½ìŒ" );
 			}*/
 			 
 		} catch (IOException e) {

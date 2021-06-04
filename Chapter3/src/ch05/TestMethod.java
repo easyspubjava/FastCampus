@@ -5,7 +5,7 @@ public class TestMethod {
 	int num;
 	
 	void aaa() {
-		System.out.println("aaa() È£Ãâ");
+		System.out.println("aaa() í˜¸ì¶œ");
 	}
 	
 	public static void main(String[] args) {

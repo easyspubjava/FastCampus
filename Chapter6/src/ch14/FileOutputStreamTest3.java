@@ -11,15 +11,15 @@ public class FileOutputStreamTest3 {
 		{
 		
 			byte[] bs = new byte[26];
-			byte data = 65;     //'A' ÀÇ ¾Æ½ºÅ° °ª
-			for(int i = 0; i < bs.length; i++){  // A-Z ±îÁö ¹è¿­¿¡ ³Ö±â
+			byte data = 65;     //'A' ì˜ ì•„ìŠ¤í‚¤ ê°’
+			for(int i = 0; i < bs.length; i++){  // A-Z ê¹Œì§€ ë°°ì—´ì— ë„£ê¸°
 				bs[i] = data;
 				data++;
 			}
-			fos.write(bs, 2, 10);   // ¹è¿­ÀÇ 2 ¹øÂ° À§Ä¡ºÎÅÍ 10 °³ ¹ÙÀÌÆ® Ãâ·ÂÇÏ±â
+			fos.write(bs, 2, 10);   // ë°°ì—´ì˜ 2 ë²ˆì§¸ ìœ„ì¹˜ë¶€í„° 10 ê°œ ë°”ì´íŠ¸ ì¶œë ¥í•˜ê¸°
 		}catch(IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println("Ãâ·ÂÀÌ ¿Ï·áµÇ¾ú½À´Ï´Ù.");
+		System.out.println("ì¶œë ¥ì´ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
 	}
 }

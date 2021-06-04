@@ -22,29 +22,29 @@ public class TestMain {
 		test.creatSubject();
 		test.createStudent();
 		
-		String report = test.gradeReport.getReport(); //¼ºÀû °á°ú »ı¼º
-		System.out.println(report); // Ãâ·Â
+		String report = test.gradeReport.getReport(); //ì„±ì  ê²°ê³¼ ìƒì„±
+		System.out.println(report); // ì¶œë ¥
 		
 	}
 	
-	//Å×½ºÆ® °ú¸ñ »ı¼º
+	//í…ŒìŠ¤íŠ¸ ê³¼ëª© ìƒì„±
 	public void creatSubject(){
 		
-		korean = new Subject("±¹¾î", Define.KOREAN);
-		math = new Subject("¼öÇĞ", Define.MATH);
+		korean = new Subject("êµ­ì–´", Define.KOREAN);
+		math = new Subject("ìˆ˜í•™", Define.MATH);
 		
 		goodSchool.addSubject(korean);
 		goodSchool.addSubject(math);
 	}
 	
-	//Å×½ºÆ® ÇĞ»ı »ı¼º
+	//í…ŒìŠ¤íŠ¸ í•™ìƒ ìƒì„±
 	public void createStudent(){
 		
-		Student student1 = new Student(211213, "°­°¨Âù", korean  );
-		Student student2 = new Student(212330, "±èÀ¯½Å", math  );
-		Student student3 = new Student(201518, "½Å»çÀÓ´ç", korean  );
-		Student student4 = new Student(202360, "ÀÌ¼ø½Å", korean  );
-		Student student5 = new Student(201290, "È«±æµ¿", math );
+		Student student1 = new Student(211213, "ê°•ê°ì°¬", korean  );
+		Student student2 = new Student(212330, "ê¹€ìœ ì‹ ", math  );
+		Student student3 = new Student(201518, "ì‹ ì‚¬ì„ë‹¹", korean  );
+		Student student4 = new Student(202360, "ì´ìˆœì‹ ", korean  );
+		Student student5 = new Student(201290, "í™ê¸¸ë™", math );
 		
 		goodSchool.addStudent(student1);
 		goodSchool.addStudent(student2);
@@ -80,7 +80,7 @@ public class TestMain {
 		addScoreForStudent(student5, math, 56);	
 	}
 
-	//°ú¸ñº° ¼ºÀû ÀÔ·Â
+	//ê³¼ëª©ë³„ ì„±ì  ì…ë ¥
 	public void addScoreForStudent(Student student, Subject subject, int point){
 		
 		Score score = new Score(student.getStudentId(), subject, point);

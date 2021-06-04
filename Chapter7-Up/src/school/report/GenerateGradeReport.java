@@ -15,19 +15,19 @@ import utils.Define;
 public class GenerateGradeReport {
 
 	School school = School.getInstance();
-	public static final String TITLE = " ¼ö°­»ı ÇĞÁ¡ \t\t\n";
-	public static final String HEADER = " ÀÌ¸§  |  ÇĞ¹ø  |ÁßÁ¡°ú¸ñ| Á¡¼ö   \n ";
+	public static final String TITLE = " ìˆ˜ê°•ìƒ í•™ì  \t\t\n";
+	public static final String HEADER = " ì´ë¦„  |  í•™ë²ˆ  |ì¤‘ì ê³¼ëª©| ì ìˆ˜   \n ";
 	public static final String LINE = "-------------------------------------\n";
 	private StringBuffer buffer = new StringBuffer();  
 	
 	public String getReport(){
-		ArrayList<Subject> subjectList = school.getSubjectList();  // ¸ğµç °ú¸ñ¿¡ ´ëÇÑ ÇĞÁ¡ »êÃâ
+		ArrayList<Subject> subjectList = school.getSubjectList();  // ëª¨ë“  ê³¼ëª©ì— ëŒ€í•œ í•™ì  ì‚°ì¶œ
 		for( Subject subject : subjectList) {
 			makeHeader(subject);
 			makeBody(subject);
 			makeFooter();
 		}
-		return buffer.toString();  // String À¸·Î ¹İÈ¯
+		return buffer.toString();  // String ìœ¼ë¡œ ë°˜í™˜
 	}
 	
 	public void makeHeader(Subject subject){
@@ -40,7 +40,7 @@ public class GenerateGradeReport {
 	
 	public void makeBody(Subject subject){
 		
-		ArrayList<Student> studentList = subject.getStudentList();  // °¢ °ú¸ñÀÇ ÇĞ»ıµé
+		ArrayList<Student> studentList = subject.getStudentList();  // ê° ê³¼ëª©ì˜ í•™ìƒë“¤
 		
 		for(int i=0; i<studentList.size(); i++){
 			Student student = studentList.get(i);
@@ -51,7 +51,7 @@ public class GenerateGradeReport {
 			buffer.append(student.getMajorSubject().getSubjectName() + "\t");
 			buffer.append(" | ");
 			
-			getScoreGrade(student, subject);  //ÇĞ»ıº° ÇØ´ç°ú¸ñ ÇĞÁ¡ °è»ê
+			getScoreGrade(student, subject);  //í•™ìƒë³„ í•´ë‹¹ê³¼ëª© í•™ì  ê³„ì‚°
 			buffer.append("\n");
 			buffer.append(LINE);
 		}
@@ -62,22 +62,22 @@ public class GenerateGradeReport {
 		ArrayList<Score> scoreList = student.getScoreList();
 		int majorId = student.getMajorSubject().getSubjectId();
 		
-		GradeEvaluation[] gradeEvaluation = {new BasicEvaluation(), new MajorEvaluation(), new PassFailEvaluation()};  //ÇĞÁ¡ Æò°¡ Å¬·¡½ºµé
+		GradeEvaluation[] gradeEvaluation = {new BasicEvaluation(), new MajorEvaluation(), new PassFailEvaluation()};  //í•™ì  í‰ê°€ í´ë˜ìŠ¤ë“¤
 		
-		for(int i=0; i<scoreList.size(); i++){  // ÇĞ»ıÀÌ °¡Áø Á¡¼öµé 
+		for(int i=0; i<scoreList.size(); i++){  // í•™ìƒì´ ê°€ì§„ ì ìˆ˜ë“¤ 
 			
 			Score score = scoreList.get(i);
-			if(score.getSubject().getSubjectId() == subject.getSubjectId()) {  // ÇöÀç ÇĞÁ¡À» »êÃâÇÒ °ú¸ñ 
+			if(score.getSubject().getSubjectId() == subject.getSubjectId()) {  // í˜„ì¬ í•™ì ì„ ì‚°ì¶œí•  ê³¼ëª© 
 				String grade;
 		
 				if(subject.getGradeType() == Define.PF_TYPE) {
 					grade = gradeEvaluation[Define.PF_TYPE].getGrade(score.getPoint());
 				}
 				else {
-				    if(score.getSubject().getSubjectId() == majorId)  // ÁßÁ¡ °ú¸ñÀÎ °æ¿ì
-					    grade = gradeEvaluation[Define.SAB_TYPE].getGrade(score.getPoint());//ÁßÁ¡ °ú¸ñ ÇĞÁ¡ Æò°¡ ¹æ¹ı  
+				    if(score.getSubject().getSubjectId() == majorId)  // ì¤‘ì  ê³¼ëª©ì¸ ê²½ìš°
+					    grade = gradeEvaluation[Define.SAB_TYPE].getGrade(score.getPoint());//ì¤‘ì  ê³¼ëª© í•™ì  í‰ê°€ ë°©ë²•  
 				    else
-				    	grade = gradeEvaluation[Define.AB_TYPE].getGrade(score.getPoint()); // ÁßÁ¡ °ú¸ñÀÌ ¾Æ´Ñ °æ¿ì
+				    	grade = gradeEvaluation[Define.AB_TYPE].getGrade(score.getPoint()); // ì¤‘ì  ê³¼ëª©ì´ ì•„ë‹Œ ê²½ìš°
 				}
 				buffer.append(score.getPoint());
 				buffer.append(":");

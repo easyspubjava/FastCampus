@@ -17,11 +17,11 @@ public class BinarySearchProblem {
 		
 		while(left <= right) {
 			
-			if(target == temp) {  //¼ö¸¦ Ã£Àº °æ¿ì
+			if(target == temp) {  //ìˆ˜ë¥¼ ì°¾ì€ ê²½ìš°
 				find = true;
 				break;
 			}
-			else if(target < temp) { // Ã£À¸·Á´Â ¼ö°¡ ´õ ÀÛÀº °æ¿ì
+			else if(target < temp) { // ì°¾ìœ¼ë ¤ëŠ” ìˆ˜ê°€ ë” ìž‘ì€ ê²½ìš°
 				right = mid-1;
 				
 			}
@@ -35,8 +35,8 @@ public class BinarySearchProblem {
 		if(find == true) 
 		{
 			mid++;
-			System.out.println("Ã£´Â ¼ö´Â " + mid + "¹øÂ° ÀÖ½À´Ï´Ù.");
+			System.out.println("ì°¾ëŠ” ìˆ˜ëŠ” " + mid + "ë²ˆì§¸ ìžˆìŠµë‹ˆë‹¤.");
 		}
-		else System.out.println("Ã£´Â ¼ö°¡ ¾ø½À´Ï´Ù.");
+		else System.out.println("ì°¾ëŠ” ìˆ˜ê°€ ì—†ìŠµë‹ˆë‹¤.");
 	}
 }

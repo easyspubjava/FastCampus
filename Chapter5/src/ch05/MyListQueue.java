@@ -24,7 +24,7 @@ public class MyListQueue extends MyLinkedList implements IQueue{
 	public void enQueue(String data)
 	{
 		MyListNode newNode;
-		if(isEmpty())  //Ã³À½ Ç×¸ñ
+		if(isEmpty())  //ì²˜ìŒ í•­ëª©
 		{
 			newNode = addElement(data);
 			front = newNode;
@@ -46,7 +46,7 @@ public class MyListQueue extends MyLinkedList implements IQueue{
 		}
 		String data = front.getData();
 		front = front.next;
-		if( front == null ){  // ¸¶Áö¸· Ç×¸ñ
+		if( front == null ){  // ë§ˆì§€ë§‰ í•­ëª©
 			rear = null;
 		}
 		return data;

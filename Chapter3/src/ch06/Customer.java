@@ -32,7 +32,7 @@ public class Customer {
 	}
 	
 	public String showCustomerInfo(){
-		return customerName + " ´ÔÀÇ µî±ŞÀº " + customerGrade + "ÀÌ¸ç, º¸³Ê½º Æ÷ÀÎÆ®´Â " + bonusPoint + "ÀÔ´Ï´Ù.";  
+		return customerName + " ë‹˜ì˜ ë“±ê¸‰ì€ " + customerGrade + "ì´ë©°, ë³´ë„ˆìŠ¤ í¬ì¸íŠ¸ëŠ” " + bonusPoint + "ì…ë‹ˆë‹¤.";  
 	}
 	
 	public int getCustomerID() {

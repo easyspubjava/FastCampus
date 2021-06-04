@@ -10,7 +10,7 @@ public class InputStreamReaderTest {
 
 		try(InputStreamReader isr = new InputStreamReader(new FileInputStream("reader.txt"))){
 			int i;
-			while( (i = isr.read()) != -1){  //º¸Á¶ ½ºÆ®¸²À¸·Î ÀĞ½À´Ï´Ù.
+			while( (i = isr.read()) != -1){  //ë³´ì¡° ìŠ¤íŠ¸ë¦¼ìœ¼ë¡œ ì½ìŠµë‹ˆë‹¤.
 				System.out.print((char)i);
 			}
 		}catch(IOException e) {

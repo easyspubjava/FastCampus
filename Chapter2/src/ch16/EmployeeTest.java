@@ -4,10 +4,10 @@ public class EmployeeTest {
 
 	public static void main(String[] args) {
 		Employee employeeLee = new Employee();
-		employeeLee.setEmployeeName("ÀÌ¼ø½Å");
+		employeeLee.setEmployeeName("ì´ìˆœì‹ ");
 				
 		Employee employeeKim = new Employee();
-		employeeKim.setEmployeeName("±èÀ¯½Å");
+		employeeKim.setEmployeeName("ê¹€ìœ ì‹ ");
 				
 		System.out.println(employeeLee.getEmployeeName() + "," + employeeLee.getEmployeeId());
 		System.out.println(employeeKim.getEmployeeName() + "," + employeeKim.getEmployeeId());

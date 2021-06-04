@@ -21,10 +21,10 @@ public class SwitchCaseTest {
 				break;
 			default:
 				day = 0;
-				System.out.println("Á¸ÀçÇÏÁö ¾Ê´Â ´Ş ÀÔ´Ï´Ù.");
+				System.out.println("ì¡´ì¬í•˜ì§€ ì•ŠëŠ” ë‹¬ ì…ë‹ˆë‹¤.");
 				
 		}
 		
-		System.out.println(month + "¿ùÀº " + day + "ÀÏÀÔ´Ï´Ù.");
+		System.out.println(month + "ì›”ì€ " + day + "ì¼ì…ë‹ˆë‹¤.");
 	}
 }

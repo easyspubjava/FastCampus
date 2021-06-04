@@ -7,9 +7,9 @@ public class TreeSetTest {
 	public static void main(String[] args) {
 
 		TreeSet<String> treeSet = new TreeSet<String>();
-		treeSet.add("È«±æµ¿");
-		treeSet.add("°­°¨Âù");
-		treeSet.add("ÀÌ¼ø½Å");
+		treeSet.add("í™ê¸¸ë™");
+		treeSet.add("ê°•ê°ì°¬");
+		treeSet.add("ì´ìˆœì‹ ");
 		
 		for(String str : treeSet) {
 			System.out.println(str);

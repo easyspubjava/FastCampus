@@ -8,17 +8,17 @@ public class FileWriterTest {
 	public static void main(String[] args) {
 
 		try(FileWriter fw = new FileWriter("writer.txt")){
-			fw.write('A');    // ¹®ÀÚ ÇÏ³ª Ãâ·Â
+			fw.write('A');    // ë¬¸ì í•˜ë‚˜ ì¶œë ¥
 			char buf[] = {'B','C','D','E','F','G'};
 			
-			fw.write(buf); //¹®ÀÚ ¹è¿­ Ãâ·Â
-			fw.write("¾È³çÇÏ¼¼¿ä. Àß ½áÁö³×¿ä"); //String Ãâ·Â
-			fw.write(buf, 1, 2); //¹®ÀÚ ¹è¿­ÀÇ ÀÏºÎ Ãâ·Â
-			fw.write("65");  //¼ıÀÚ¸¦ ±×´ë·Î Ãâ·Â
+			fw.write(buf); //ë¬¸ì ë°°ì—´ ì¶œë ¥
+			fw.write("ì•ˆë…•í•˜ì„¸ìš”. ì˜ ì¨ì§€ë„¤ìš”"); //String ì¶œë ¥
+			fw.write(buf, 1, 2); //ë¬¸ì ë°°ì—´ì˜ ì¼ë¶€ ì¶œë ¥
+			fw.write("65");  //ìˆ«ìë¥¼ ê·¸ëŒ€ë¡œ ì¶œë ¥
 		}catch(IOException e) {
 			e.printStackTrace();
 		}
 		
-		System.out.println("Ãâ·ÂÀÌ ¿Ï·áµÇ¾ú½À´Ï´Ù.");
+		System.out.println("ì¶œë ¥ì´ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
 	}
 }

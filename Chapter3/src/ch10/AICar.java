@@ -4,12 +4,12 @@ public class AICar extends Car{
 
 	@Override
 	public void drive() {
-		System.out.println("ÀÚÀ² ÁÖÇàÇÕ´Ï´Ù.");
-		System.out.println("ÀÚµ¿Â÷°¡ ½º½º·Î ¹æÇâÀ» ¹Ù²ß´Ï´Ù.");
+		System.out.println("ììœ¨ ì£¼í–‰í•©ë‹ˆë‹¤.");
+		System.out.println("ìë™ì°¨ê°€ ìŠ¤ìŠ¤ë¡œ ë°©í–¥ì„ ë°”ê¿‰ë‹ˆë‹¤.");
 	}
 
 	@Override
 	public void stop() {
-		System.out.println("½º½º·Î ¸ØÃä´Ï´Ù.");		
+		System.out.println("ìŠ¤ìŠ¤ë¡œ ë©ˆì¶¥ë‹ˆë‹¤.");		
 	}
 }

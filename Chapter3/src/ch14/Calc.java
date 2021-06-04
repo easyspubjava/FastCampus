@@ -11,7 +11,7 @@ public interface Calc {
 	int divide(int num1, int num2);
 	
 	default void description() {
-		System.out.println("Á¤¼ö °è»ê±â¸¦ ±¸ÇöÇÕ´Ï´Ù.");
+		System.out.println("ì •ìˆ˜ ê³„ì‚°ê¸°ë¥¼ êµ¬í˜„í•©ë‹ˆë‹¤.");
 		myMethod();
 	}
 	

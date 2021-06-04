@@ -21,7 +21,7 @@ public class Employee {
 	public static void setSerialNum(int serialNum) {
 		int i = 0;
 		
-	//	employeeName = "Lee";  //¿À·ù¹ß»ı
+	//	employeeName = "Lee";  //ì˜¤ë¥˜ë°œìƒ
 		Employee.serialNum = serialNum;
 	}
 

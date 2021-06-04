@@ -2,10 +2,10 @@ package ch12;
 
 public class Member {
 	
-	private int memberId;        //È¸¿ø ¾ÆÀÌµğ
-	private String memberName;   //È¸¿ø ÀÌ¸§
+	private int memberId;        //íšŒì› ì•„ì´ë””
+	private String memberName;   //íšŒì› ì´ë¦„
 
-	public Member(int memberId, String memberName){ //»ı¼ºÀÚ
+	public Member(int memberId, String memberName){ //ìƒì„±ì
 		this.memberId = memberId;
 		this.memberName = memberName;
 	}
@@ -41,7 +41,7 @@ public class Member {
 	}
 	
 	@Override
-	public String toString(){   //toString ¸Ş¼Òµå ¿À¹ö·Îµù
-		return memberName + " È¸¿ø´ÔÀÇ ¾ÆÀÌµğ´Â " + memberId + "ÀÔ´Ï´Ù";
+	public String toString(){   //toString ë©”ì†Œë“œ ì˜¤ë²„ë¡œë”©
+		return memberName + " íšŒì›ë‹˜ì˜ ì•„ì´ë””ëŠ” " + memberId + "ì…ë‹ˆë‹¤";
 	}
 }

@@ -31,7 +31,7 @@ public class FunctionTest {
 		
 		int total = addNum(n1, n2);
 		
-		sayHello("¾È³çÇÏ¼¼¿ä");
+		sayHello("ì•ˆë…•í•˜ì„¸ìš”");
 		int num = calcSum();
 		
 		System.out.println(total);

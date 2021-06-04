@@ -9,7 +9,7 @@ public class UsingDefine {
 		System.out.println(Define.MAX);
 		System.out.println(Define.MATH_CODE);
 		System.out.println(Define.CHEMISTRY_CODE);
-		System.out.println("¿øÁÖ·üÀº" + Define.PI + "ÀÔ´Ï´Ù.");
+		System.out.println("ì›ì£¼ë¥ ì€" + Define.PI + "ì…ë‹ˆë‹¤.");
 	}
 
 }

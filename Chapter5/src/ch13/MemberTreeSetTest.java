@@ -7,9 +7,9 @@ public class MemberTreeSetTest {
 		MemberTreeSet memberTreeSet = new MemberTreeSet();
 		
 		
-		Member memberKim = new Member(1003, "±èÀ¯½Å");
-		Member memberLee = new Member(1001, "ÀÌ¼ø½Å");
-		Member memberKang = new Member(1002, "°­°¨Âù");
+		Member memberKim = new Member(1003, "ê¹€ìœ ì‹ ");
+		Member memberLee = new Member(1001, "ì´ìˆœì‹ ");
+		Member memberKang = new Member(1002, "ê°•ê°ì°¬");
 		
 		
 		memberTreeSet.addMember(memberKim);

@@ -7,12 +7,12 @@ public class ConditionTest {
 	public static void main(String[] args) {
 
 		int max;
-		System.out.println("ÀÔ·Â ¹ÞÀº µÎ ¼öÁß Å« ¼ö¸¦ Ãâ·ÂÇÏ¼¼¿ä\n ");
+		System.out.println("ìž…ë ¥ ë°›ì€ ë‘ ìˆ˜ì¤‘ í° ìˆ˜ë¥¼ ì¶œë ¥í•˜ì„¸ìš”\n ");
 		
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("ÀÔ·Â1:");
+		System.out.println("ìž…ë ¥1:");
 		int x = scanner.nextInt();
-		System.out.println("ÀÔ·Â2:");
+		System.out.println("ìž…ë ¥2:");
 		int y = scanner.nextInt();
 		
 		max = (x > y)? x : y;

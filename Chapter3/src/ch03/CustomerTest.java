@@ -4,11 +4,11 @@ public class CustomerTest {
 
 	public static void main(String[] args) {
 		
-		Customer customerLee = new Customer(10010, "ÀÌ¼ø½Å");
+		Customer customerLee = new Customer(10010, "ì´ìˆœì‹ ");
 		customerLee.bonusPoint = 1000;
 		System.out.println(customerLee.showCustomerInfo());
 		
-		VIPCustomer customerKim = new VIPCustomer(10020, "±èÀ¯½Å");
+		VIPCustomer customerKim = new VIPCustomer(10020, "ê¹€ìœ ì‹ ");
 		customerKim.bonusPoint = 10000;
 		System.out.println(customerKim.showCustomerInfo());
 	}

@@ -7,7 +7,7 @@ public class OrderTest {
 		Order myOrder = new Order();
 		myOrder.orderNumber = "202011020003";
 		myOrder.customerPhone = "01023450001";
-		myOrder.customerAddress = "¼­¿ï½Ã °­³²±¸ ¿ª»ïµ¿ 111-333";
+		myOrder.customerAddress = "ì„œìš¸ì‹œ ê°•ë‚¨êµ¬ ì—­ì‚¼ë™ 111-333";
 		myOrder.orderDate = "20201102";
 		myOrder.orderTime = "130258";
 		myOrder.price = 35000;

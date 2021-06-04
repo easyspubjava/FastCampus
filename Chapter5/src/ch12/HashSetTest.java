@@ -7,11 +7,11 @@ public class HashSetTest {
 	public static void main(String[] args) {
 
 		HashSet<String> hashSet = new HashSet<String>();
-		hashSet.add(new String("±èÀ¯½Å"));
-		hashSet.add(new String("ÀÌ¼ø½Å"));
-		hashSet.add(new String("È«¿¬ÀÇ"));
-		hashSet.add(new String("°­°¨Âù"));
-		hashSet.add(new String("°­°¨Âù"));
+		hashSet.add(new String("ê¹€ìœ ì‹ "));
+		hashSet.add(new String("ì´ìˆœì‹ "));
+		hashSet.add(new String("í™ì—°ì˜"));
+		hashSet.add(new String("ê°•ê°ì°¬"));
+		hashSet.add(new String("ê°•ê°ì°¬"));
 		
 		System.out.println(hashSet);
 	}

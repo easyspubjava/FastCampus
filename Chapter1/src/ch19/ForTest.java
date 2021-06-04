@@ -7,7 +7,7 @@ public class ForTest {
 		int count =1;
 		int sum = 0;
 		
-		for( int i = 0 ; i<10; i++, count++) {  //10¹ø
+		for( int i = 0 ; i<10; i++, count++) {  //10ë²ˆ
 			sum += count;
 			count++;
 		}

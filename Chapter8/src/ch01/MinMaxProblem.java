@@ -24,8 +24,8 @@ public class MinMaxProblem {
 			}
 		}
 		
-		System.out.println("°¡Àå Å« °ªÀº " + max + "ÀÌ°í, À§Ä¡´Â " + maxPos + "¹øÂ° ÀÔ´Ï´Ù.");
-		System.out.println("°¡Àå ÀÛÀº °ªÀº " + min + "ÀÌ°í, À§Ä¡´Â " + minPos + "¹øÂ° ÀÔ´Ï´Ù.");
+		System.out.println("ê°€ì¥ í° ê°’ì€ " + max + "ì´ê³ , ìœ„ì¹˜ëŠ” " + maxPos + "ë²ˆì§¸ ì…ë‹ˆë‹¤.");
+		System.out.println("ê°€ì¥ ì‘ì€ ê°’ì€ " + min + "ì´ê³ , ìœ„ì¹˜ëŠ” " + minPos + "ë²ˆì§¸ ì…ë‹ˆë‹¤.");
 	}
 
 }

@@ -7,11 +7,11 @@ public class ObjectCopy2 {
 		Book[] library = new Book[5];
 		Book[] copyLibaray = new Book[5];
 		
-		library[0] = new Book("ÅÂ¹é»ê¸Æ1", "Á¶Á¤·¡");
-		library[1] = new Book("ÅÂ¹é»ê¸Æ2", "Á¶Á¤·¡");
-		library[2] = new Book("ÅÂ¹é»ê¸Æ3", "Á¶Á¤·¡");
-		library[3] = new Book("ÅÂ¹é»ê¸Æ4", "Á¶Á¤·¡");
-		library[4] = new Book("ÅÂ¹é»ê¸Æ5", "Á¶Á¤·¡");
+		library[0] = new Book("íƒœë°±ì‚°ë§¥1", "ì¡°ì •ëž˜");
+		library[1] = new Book("íƒœë°±ì‚°ë§¥2", "ì¡°ì •ëž˜");
+		library[2] = new Book("íƒœë°±ì‚°ë§¥3", "ì¡°ì •ëž˜");
+		library[3] = new Book("íƒœë°±ì‚°ë§¥4", "ì¡°ì •ëž˜");
+		library[4] = new Book("íƒœë°±ì‚°ë§¥5", "ì¡°ì •ëž˜");
 		
 		copyLibaray[0] = new Book();
 		copyLibaray[1] = new Book();
@@ -25,8 +25,8 @@ public class ObjectCopy2 {
 		}
 		
 		
-		library[0].setTitle("³ª¸ñ");
-		library[0].setAuthor("¹Ú¿Ï¼­");
+		library[0].setTitle("ë‚˜ëª©");
+		library[0].setAuthor("ë°•ì™„ì„œ");
 	
 		System.out.println("======library=========");
 		for( Book book : library) {

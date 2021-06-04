@@ -1,9 +1,9 @@
 package school;
 
 public class Score {
-	int studentId;   //ÇĞ¹ø
-	Subject subject; //°ú¸ñ
-	int point;      //Á¡¼ö
+	int studentId;   //í•™ë²ˆ
+	Subject subject; //ê³¼ëª©
+	int point;      //ì ìˆ˜
 	
 	public Score( int studentId, Subject subject, int point){
 		this.studentId = studentId;
@@ -36,6 +36,6 @@ public class Score {
 	}
 
 	public String toString(){
-		return "ÇĞ¹ø:" + studentId + "," + subject.getSubjectName() + ":" + point;
+		return "í•™ë²ˆ:" + studentId + "," + subject.getSubjectName() + ":" + point;
 	}
 }

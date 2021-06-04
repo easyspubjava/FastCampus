@@ -5,7 +5,7 @@ import java.io.IOException;
 public class SystemInTest2 {
 
 	public static void main(String[] args) {
-		System.out.println("¾ËÆÄºª ¿©·¯ °³¸¦ ¾²°í [Enter]¸¦ ´©¸£¼¼¿ä");
+		System.out.println("ì•ŒíŒŒë²³ ì—¬ëŸ¬ ê°œë¥¼ ì“°ê³  [Enter]ë¥¼ ëˆ„ë¥´ì„¸ìš”");
 		
 		int i;
 		try {

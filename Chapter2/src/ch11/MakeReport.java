@@ -5,7 +5,7 @@ public class MakeReport {
 	StringBuffer buffer = new StringBuffer();
 	
 	private String line = "===========================================\n";
-	private String title = "  ÀÌ¸§\t   ÁÖ¼Ò \t\t  ÀüÈ­¹øÈ£  \n";
+	private String title = "  ì´ë¦„\t   ì£¼ì†Œ \t\t  ì „í™”ë²ˆí˜¸  \n";
 	private void makeHeader()
 	{
 		buffer.append(line);

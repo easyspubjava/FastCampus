@@ -2,9 +2,9 @@ package ch07;
 
 public class TravelCustomer {
 
-	private String name;   //ÀÌ¸§
-	private int age;       //³ªÀÌ
-	private int price;     //°¡°İ
+	private String name;   //ì´ë¦„
+	private int age;       //ë‚˜ì´
+	private int price;     //ê°€ê²©
 	
 	public TravelCustomer(String name, int age, int price) {
 		this.name = name;

@@ -17,7 +17,7 @@ public class ClassTest {
 		Class[] parameterTypes = {String.class};
 		Constructor cons = c1.getConstructor(parameterTypes);
 		
-		Object[] initargs = {"±èÀ¯½Å"};
+		Object[] initargs = {"ê¹€ìœ ì‹ "};
 		Person personLee = (Person)cons.newInstance(initargs);
 		System.out.println(personLee);
 	}

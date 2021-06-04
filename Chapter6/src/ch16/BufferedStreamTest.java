@@ -28,6 +28,6 @@ public class BufferedStreamTest {
 			e.printStackTrace();
 		}
 		
-		System.out.println("ÆÄÀÏ º¹»ç ÇÏ´Â µ¥ " + millisecond + " milliseconds ¼Ò¿äµÇ¾ú½À´Ï´Ù.");
+		System.out.println("íŒŒì¼ ë³µì‚¬ í•˜ëŠ” ë° " + millisecond + " milliseconds ì†Œìš”ë˜ì—ˆìŠµë‹ˆë‹¤.");
 	}
 }

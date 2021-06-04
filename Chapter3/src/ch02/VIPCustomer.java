@@ -6,7 +6,7 @@ public class VIPCustomer extends Customer{
 	double salesRatio;
 	
 	public VIPCustomer() {
-		customerGrade = "VIP";    //¿À·ù ¹ß»ı
+		customerGrade = "VIP";    //ì˜¤ë¥˜ ë°œìƒ
 		bonusRatio = 0.05;
 		salesRatio = 0.1;
 	}

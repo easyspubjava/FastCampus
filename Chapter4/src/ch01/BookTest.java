@@ -19,7 +19,7 @@ public class BookTest {
 
 	public static void main(String[] args) {
 
-		Book book = new Book("µ¥¹Ì¾È", "Çì¸£¸¸ Çì¼¼");
+		Book book = new Book("ë°ë¯¸ì•ˆ", "í—¤ë¥´ë§Œ í—¤ì„¸");
 		
 		System.out.println(book);
 	}

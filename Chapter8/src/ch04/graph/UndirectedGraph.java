@@ -1,8 +1,8 @@
 package ch04.graph;
 
 public class UndirectedGraph{
-    private int count;   //³ëµå ¼ö           
-    private int[][] vertexMatrix;  // matrix·Î ±×·¡ÇÁ Ç¥½Ã
+    private int count;   //ë…¸ë“œ ìˆ˜           
+    private int[][] vertexMatrix;  // matrixë¡œ ê·¸ëž˜í”„ í‘œì‹œ
     
     
     public UndirectedGraph(int count){

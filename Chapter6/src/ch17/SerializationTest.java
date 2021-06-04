@@ -66,8 +66,8 @@ public class SerializationTest {
 
 	public static void main(String[] args) throws ClassNotFoundException {
 
-		Person personAhn = new Person("ÀÌ¼ø½Å", "´ëÇ¥ÀÌ»ç");
-		Person personKim = new Person("±èÀ¯½Å", "»ó¹«ÀÌ»ç");
+		Person personAhn = new Person("ì´ìˆœì‹ ", "ëŒ€í‘œì´ì‚¬");
+		Person personKim = new Person("ê¹€ìœ ì‹ ", "ìƒë¬´ì´ì‚¬");
 		
 		try(FileOutputStream fos = new FileOutputStream("serial.out");
 				ObjectOutputStream oos = new ObjectOutputStream(fos)){

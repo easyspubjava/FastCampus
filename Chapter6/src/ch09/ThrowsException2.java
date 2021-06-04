@@ -6,8 +6,8 @@ import java.io.FileNotFoundException;
 public class ThrowsException2 {
 
 	public Class loadClass(String fileName, String className) throws FileNotFoundException, ClassNotFoundException{
-		FileInputStream fis = new FileInputStream(fileName); //FileNotFoundException πﬂª˝
-		Class c = Class.forName(className);  //ClassNotFoundException πﬂª˝
+		FileInputStream fis = new FileInputStream(fileName); //FileNotFoundException Î∞úÏÉù
+		Class c = Class.forName(className);  //ClassNotFoundException Î∞úÏÉù
 		return c;
 	}
 

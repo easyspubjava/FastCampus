@@ -16,7 +16,7 @@ public class InsertionSort {
 			}
 			arr[j] = temp;
 
-			System.out.println("¹Ýº¹ -" + i);
+			System.out.println("ë°˜ë³µ -" + i);
 			printSort(arr, count);
 		}
 		

@@ -10,8 +10,8 @@ class Outter2{
 				
 		@Override
 		public void run() {
-			//num = 200;   //¿¡·¯ ³²
-			//i = 10;      //¿¡·¯ ³²
+			//num = 200;   //ì—ëŸ¬ ë‚¨
+			//i = 10;      //ì—ëŸ¬ ë‚¨
 			System.out.println(i);
 			System.out.println(num);
 			}
@@ -22,7 +22,7 @@ class Outter2{
 		
 		@Override
 		public void run() {
-			System.out.println("Runnable ÀÌ ±¸ÇöµÈ ÀÍ¸í Å¬·¡½º º¯¼ö");
+			System.out.println("Runnable ì´ êµ¬í˜„ëœ ìµëª… í´ë˜ìŠ¤ ë³€ìˆ˜");
 			
 		}
 	};

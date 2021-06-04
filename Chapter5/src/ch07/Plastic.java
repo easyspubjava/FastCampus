@@ -3,10 +3,10 @@ package ch07;
 public class Plastic extends Material{
 
 	public void doPrinting() {
-		System.out.println("Plastic Àç·á·Î Ãâ·ÂÇÕ´Ï´Ù");
+		System.out.println("Plastic ìž¬ë£Œë¡œ ì¶œë ¥í•©ë‹ˆë‹¤");
 	}
 	
 	public String toString() {
-		return "Àç·á´Â Plastic ÀÔ´Ï´Ù";
+		return "ìž¬ë£ŒëŠ” Plastic ìž…ë‹ˆë‹¤";
 	}
 }
