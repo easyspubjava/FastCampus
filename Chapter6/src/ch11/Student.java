@@ -13,7 +13,7 @@ public class Student {
 			throw new StudentNameFormatException("name must not be null");
 		}
 		if( studentName.split(" ").length > 3)
-			throw new StudentNameFormatException("ÀÌ¸§ÀÌ ³Ê¹« ±æ¾î¿ä");
+			throw new StudentNameFormatException("ì´ë¦„ì´ ë„ˆë¬´ ê¸¸ì–´ìš”");
 		
 		this.studentName = studentName;
 	}

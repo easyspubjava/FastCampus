@@ -20,6 +20,6 @@ public class GenericMethod {
 		Point<Integer, Double> p2 = new Point<>(10, 10.0);
 		
 		double rect = GenericMethod.<Integer, Double>makeRectangle(p1, p2);
-		System.out.println("µÎ Á¡À¸·Î ¸¸µé¾îÁø »ç°¢ÇüÀÇ ³ĞÀÌ´Â " + rect + "ÀÔ´Ï´Ù.");
+		System.out.println("ë‘ ì ìœ¼ë¡œ ë§Œë“¤ì–´ì§„ ì‚¬ê°í˜•ì˜ ë„“ì´ëŠ” " + rect + "ì…ë‹ˆë‹¤.");
 	}
 }

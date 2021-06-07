@@ -19,7 +19,7 @@ public class MyArrayTest {
 		
 		MyArrayG<String> myArray1 = new MyArrayG<String>();
 		myArray1.add(new String("test"));
-		String str = myArray1.get(0);  //Çü º¯È¯ ÇÏÁö ¾ÊÀ½
+		String str = myArray1.get(0);  //í˜• ë³€í™˜ í•˜ì§€ ì•ŠìŒ
 		System.out.println(str);
 		
 		MyArrayG<Integer> myArray2 = new MyArrayG<Integer>();

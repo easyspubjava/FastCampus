@@ -15,14 +15,14 @@ public class MyLinkedList {
 	{
 		
 		MyListNode newNode;
-		if(head == null){  //¸Ç Ã³À½ÀÏ¶§
+		if(head == null){  //ë§¨ ì²˜ìŒì¼ë•Œ
 			newNode = new MyListNode(data);
 			head = newNode;
 		}
 		else{
 			newNode = new MyListNode(data);
 			MyListNode temp = head;
-			while(temp.next != null)  //¸Ç µÚ·Î °¡¼­  
+			while(temp.next != null)  //ë§¨ ë’¤ë¡œ ê°€ì„œ  
 				temp = temp.next;
 			temp.next = newNode;
 		}
@@ -37,11 +37,11 @@ public class MyLinkedList {
 		MyListNode newNode = new MyListNode(data);
 		
 		if(position < 0 || position > count ){
-			System.out.println("Ãß°¡ ÇÒ À§Ä¡ ¿À·ù ÀÔ´Ï´Ù. ÇöÀç ¸®½ºÆ®ÀÇ °³¼ö´Â " + count +"°³ ÀÔ´Ï´Ù.");
+			System.out.println("ì¶”ê°€ í•  ìœ„ì¹˜ ì˜¤ë¥˜ ì…ë‹ˆë‹¤. í˜„ì¬ ë¦¬ìŠ¤íŠ¸ì˜ ê°œìˆ˜ëŠ” " + count +"ê°œ ì…ë‹ˆë‹¤.");
 			return null;
 		}
 		
-		if(position == 0){  //¸Ç ¾ÕÀ¸·Î µé¾î°¡´Â °æ¿ì
+		if(position == 0){  //ë§¨ ì•ìœ¼ë¡œ ë“¤ì–´ê°€ëŠ” ê²½ìš°
 			newNode.next = head;
 			head = newNode;
 		}
@@ -65,11 +65,11 @@ public class MyLinkedList {
 		MyListNode tempNode = head;
 		
 		if(position >= count ){
-			System.out.println("»èÁ¦ ÇÒ À§Ä¡ ¿À·ùÀÔ´Ï´Ù. ÇöÀç ¸®½ºÆ®ÀÇ °³¼ö´Â " + count +"°³ ÀÔ´Ï´Ù.");
+			System.out.println("ì‚­ì œ í•  ìœ„ì¹˜ ì˜¤ë¥˜ì…ë‹ˆë‹¤. í˜„ì¬ ë¦¬ìŠ¤íŠ¸ì˜ ê°œìˆ˜ëŠ” " + count +"ê°œ ì…ë‹ˆë‹¤.");
 			return null;
 		}
 		
-		if(position == 0){  //¸Ç ¾ÕÀ» »èÁ¦ÇÏ´Â
+		if(position == 0){  //ë§¨ ì•ì„ ì‚­ì œí•˜ëŠ”
 			head = tempNode.next;
 		}
 		else{
@@ -81,7 +81,7 @@ public class MyLinkedList {
 			preNode.next = tempNode.next;
 		}
 		count--;
-		System.out.println(position + "¹øÂ° Ç×¸ñ »èÁ¦µÇ¾ú½À´Ï´Ù.");
+		System.out.println(position + "ë²ˆì§¸ í•­ëª© ì‚­ì œë˜ì—ˆìŠµë‹ˆë‹¤.");
 		
 		return tempNode;
 	}
@@ -92,11 +92,11 @@ public class MyLinkedList {
 		MyListNode tempNode = head;
 		
 		if(position >= count ){
-			System.out.println("°Ë»ö À§Ä¡ ¿À·ù ÀÔ´Ï´Ù. ÇöÀç ¸®½ºÆ®ÀÇ °³¼ö´Â " + count +"°³ ÀÔ´Ï´Ù.");
+			System.out.println("ê²€ìƒ‰ ìœ„ì¹˜ ì˜¤ë¥˜ ì…ë‹ˆë‹¤. í˜„ì¬ ë¦¬ìŠ¤íŠ¸ì˜ ê°œìˆ˜ëŠ” " + count +"ê°œ ì…ë‹ˆë‹¤.");
 			return new String("error");
 		}
 		
-		if(position == 0){  //¸Ç ÀÎ °æ¿ì
+		if(position == 0){  //ë§¨ ì¸ ê²½ìš°
 
 			return head.getData();
 		}
@@ -114,11 +114,11 @@ public class MyLinkedList {
 		MyListNode tempNode = head;
 		
 		if(position >= count ){
-			System.out.println("°Ë»ö À§Ä¡ ¿À·ù ÀÔ´Ï´Ù. ÇöÀç ¸®½ºÆ®ÀÇ °³¼ö´Â " + count +"°³ ÀÔ´Ï´Ù.");
+			System.out.println("ê²€ìƒ‰ ìœ„ì¹˜ ì˜¤ë¥˜ ì…ë‹ˆë‹¤. í˜„ì¬ ë¦¬ìŠ¤íŠ¸ì˜ ê°œìˆ˜ëŠ” " + count +"ê°œ ì…ë‹ˆë‹¤.");
 			return null;
 		}
 		
-		if(position == 0){  //¸Ç ÀÎ °æ¿ì
+		if(position == 0){  //ë§¨ ì¸ ê²½ìš°
 
 			return head;
 		}
@@ -145,7 +145,7 @@ public class MyLinkedList {
 	public void printAll()
 	{
 		if(count == 0){
-			System.out.println("Ãâ·ÂÇÒ ³»¿ëÀÌ ¾ø½À´Ï´Ù.");
+			System.out.println("ì¶œë ¥í•  ë‚´ìš©ì´ ì—†ìŠµë‹ˆë‹¤.");
 			return;
 		}
 		

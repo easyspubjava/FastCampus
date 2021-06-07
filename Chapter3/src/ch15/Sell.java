@@ -5,6 +5,6 @@ public interface Sell {
 	void sell();
 	
 	default void order() {
-		System.out.println("ÆÇ¸Å ÁÖ¹®");
+		System.out.println("íŒë§¤ ì£¼ë¬¸");
 	}
 }

@@ -9,7 +9,7 @@ public class PersonTest {
 		personT.age = 37;
 		personT.height = 180;
 		personT.weight = 78;
-		personT.gender = "³²¼º";
+		personT.gender = "ë‚¨ì„±";
 		
 		personT.showPersonInfo();
 		

@@ -17,6 +17,6 @@ public class UserInfo {
 	}
 	
 	public String showUserInfo() {
-		return "°í°´´ÔÀÇ ¾ÆÀÌµğ´Â " + userId + "ÀÌ°í, µî·ÏµÈ ÀÌ¸§Àº " + userName + "ÀÔ´Ï´Ù."; 
+		return "ê³ ê°ë‹˜ì˜ ì•„ì´ë””ëŠ” " + userId + "ì´ê³ , ë“±ë¡ëœ ì´ë¦„ì€ " + userName + "ì…ë‹ˆë‹¤."; 
 	}
 }

@@ -10,12 +10,12 @@ public class Bus {
 		this.busNumber = busNumber;
 	}
 	
-	public void take(int money) {  //½ÂÂ÷
+	public void take(int money) {  //ìŠ¹ì°¨
 		this.money += money;
 		passengerCount++;
 	}
 	
 	public void showBusInfo() {
-		System.out.println(busNumber + "¹ø ¹ö½ºÀÇ ½Â°´Àº " + passengerCount + "¸í ÀÌ°í, ¼öÀÔÀº " + money + "¿ø ÀÔ´Ï´Ù");
+		System.out.println(busNumber + "ë²ˆ ë²„ìŠ¤ì˜ ìŠ¹ê°ì€ " + passengerCount + "ëª… ì´ê³ , ìˆ˜ì…ì€ " + money + "ì› ì…ë‹ˆë‹¤");
 	}
 }

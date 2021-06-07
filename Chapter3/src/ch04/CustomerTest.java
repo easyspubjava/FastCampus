@@ -4,24 +4,24 @@ public class CustomerTest {
 
 	public static void main(String[] args) {
 		
-		Customer customerLee = new Customer(10010, "ÀÌ¼ø½Å");
+		Customer customerLee = new Customer(10010, "ì´ìˆœì‹ ");
 		customerLee.bonusPoint = 1000;
 		System.out.println(customerLee.showCustomerInfo());
 		
-		VIPCustomer customerKim = new VIPCustomer(10020, "±èÀ¯½Å");
+		VIPCustomer customerKim = new VIPCustomer(10020, "ê¹€ìœ ì‹ ");
 		customerKim.bonusPoint = 10000;
 		System.out.println(customerKim.showCustomerInfo());
 		
 		int priceLee = customerLee.calcPrice(10000);
 		int priceKim = customerKim.calcPrice(10000);
 		
-		System.out.println(customerLee.showCustomerInfo() + " ÁöºÒ±İ¾×Àº " + priceLee + "¿ø ÀÔ´Ï´Ù.");
-		System.out.println(customerKim.showCustomerInfo() + " ÁöºÒ±İ¾×Àº " + priceKim + "¿ø ÀÔ´Ï´Ù.");
+		System.out.println(customerLee.showCustomerInfo() + " ì§€ë¶ˆê¸ˆì•¡ì€ " + priceLee + "ì› ì…ë‹ˆë‹¤.");
+		System.out.println(customerKim.showCustomerInfo() + " ì§€ë¶ˆê¸ˆì•¡ì€ " + priceKim + "ì› ì…ë‹ˆë‹¤.");
 		
-		Customer customerNo = new VIPCustomer(10030, "³ª¸ô¶ó");
+		Customer customerNo = new VIPCustomer(10030, "ë‚˜ëª°ë¼");
 		customerNo.bonusPoint = 10000;
 		int priceNo = customerNo.calcPrice(10000);
-		System.out.println(customerNo.showCustomerInfo() + " ÁöºÒ±İ¾×Àº " + priceNo  + "¿ø ÀÔ´Ï´Ù.");
+		System.out.println(customerNo.showCustomerInfo() + " ì§€ë¶ˆê¸ˆì•¡ì€ " + priceNo  + "ì› ì…ë‹ˆë‹¤.");
 
 	}
 }

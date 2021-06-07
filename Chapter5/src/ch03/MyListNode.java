@@ -2,8 +2,8 @@ package ch03;
 
 public class MyListNode {
 
-	private String data;       // ÀÚ·á
-	public MyListNode next;    // ´ÙÀ½ ³ëµå¸¦ °¡¸®Å°´Â ¸µÅ©
+	private String data;       // ìë£Œ
+	public MyListNode next;    // ë‹¤ìŒ ë…¸ë“œë¥¼ ê°€ë¦¬í‚¤ëŠ” ë§í¬
 	
 	public MyListNode(){
 		data = null;

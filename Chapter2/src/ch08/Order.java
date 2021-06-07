@@ -2,8 +2,8 @@ package ch08;
 
 public class Order {
 
-	// Date ³ª Calendar °´Ã¼¸¦ »ç¿ëÇÒ ÁÙ ¾Ë¸é ½Ã°£ÀÌ³ª ³¯Â¥ ´ëÇÑ °ªÀº ÇØ´ç °´Ã¼¸¦ »ç¿ëÇÏ¸é µË´Ï´Ù.
-	// ¿©±â¼­ ¼ıÀÚ¿¡ ÇØ´çµÇ´Â ÀÚ·áÇüÀ» StringÀ¸·Î Ç¥ÇöÇÑ°Ç 0À¸·Î ½ÃÀÛµÉ °¡´É¼ºÀÌ ÀÖ´Â ¼ıÀÚ¿¡ ÇØ´çÇÕ´Ï´Ù.
+	// Date ë‚˜ Calendar ê°ì²´ë¥¼ ì‚¬ìš©í•  ì¤„ ì•Œë©´ ì‹œê°„ì´ë‚˜ ë‚ ì§œ ëŒ€í•œ ê°’ì€ í•´ë‹¹ ê°ì²´ë¥¼ ì‚¬ìš©í•˜ë©´ ë©ë‹ˆë‹¤.
+	// ì—¬ê¸°ì„œ ìˆ«ìì— í•´ë‹¹ë˜ëŠ” ìë£Œí˜•ì„ Stringìœ¼ë¡œ í‘œí˜„í•œê±´ 0ìœ¼ë¡œ ì‹œì‘ë  ê°€ëŠ¥ì„±ì´ ìˆëŠ” ìˆ«ìì— í•´ë‹¹í•©ë‹ˆë‹¤.
 	
 	public String orderNumber;
 	public String customerPhone;
@@ -15,12 +15,12 @@ public class Order {
 	
 	public void showOrderDetail() {
 		
-		System.out.println("ÁÖ¹® Á¢¼ö ¹øÈ£: " + orderNumber);
-		System.out.println("ÁÖ¹® ÇÚµåÆù ¹øÈ£: " + customerPhone);
-		System.out.println("ÁÖ¹® Áı ÁÖ¼Ò: " + customerAddress);
-		System.out.println("ÁÖ¹® ³¯Â¥: " + orderDate);
-		System.out.println("ÁÖ¹® ½Ã°£: " + orderTime);
-		System.out.println("ÁÖ¹® °¡°İ: " + price);
-		System.out.println("¸Ş´º ¹øÈ£: " + menuId);
+		System.out.println("ì£¼ë¬¸ ì ‘ìˆ˜ ë²ˆí˜¸: " + orderNumber);
+		System.out.println("ì£¼ë¬¸ í•¸ë“œí° ë²ˆí˜¸: " + customerPhone);
+		System.out.println("ì£¼ë¬¸ ì§‘ ì£¼ì†Œ: " + customerAddress);
+		System.out.println("ì£¼ë¬¸ ë‚ ì§œ: " + orderDate);
+		System.out.println("ì£¼ë¬¸ ì‹œê°„: " + orderTime);
+		System.out.println("ì£¼ë¬¸ ê°€ê²©: " + price);
+		System.out.println("ë©”ë‰´ ë²ˆí˜¸: " + menuId);
 	}
 }

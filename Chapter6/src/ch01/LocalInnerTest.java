@@ -16,14 +16,14 @@ class Outer{
 				
 			@Override
 			public void run() {
-				//num = 200;   //¿¡·¯ ³². Áö¿ªº¯¼ö´Â »ó¼ö·Î ¹Ù²ñ
-				//i = 100;     //¿¡·¯ ³². ¸Å°³ º¯¼ö ¿ª½Ã Áö¿ªº¯¼öÃ³·³ »ó¼ö·Î ¹Ù²ñ
+				//num = 200;   //ì—ëŸ¬ ë‚¨. ì§€ì—­ë³€ìˆ˜ëŠ” ìƒìˆ˜ë¡œ ë°”ë€œ
+				//i = 100;     //ì—ëŸ¬ ë‚¨. ë§¤ê°œ ë³€ìˆ˜ ì—­ì‹œ ì§€ì—­ë³€ìˆ˜ì²˜ëŸ¼ ìƒìˆ˜ë¡œ ë°”ë€œ
 				System.out.println("i =" + i); 
 				System.out.println("num = " +num);  
 				System.out.println("localNum = " +localNum);
 					
-				System.out.println("outNum = " + outNum + "(¿ÜºÎ Å¬·¡½º ÀÎ½ºÅÏ½º º¯¼ö)");
-				System.out.println("Outter.sNum = " + Outer.sNum + "(¿ÜºÎ Å¬·¡½º Á¤Àû º¯¼ö)");
+				System.out.println("outNum = " + outNum + "(ì™¸ë¶€ í´ë˜ìŠ¤ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜)");
+				System.out.println("Outter.sNum = " + Outer.sNum + "(ì™¸ë¶€ í´ë˜ìŠ¤ ì •ì  ë³€ìˆ˜)");
 				}
 			}
 		 return new MyRunnable();

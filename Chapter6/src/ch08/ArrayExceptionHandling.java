@@ -11,6 +11,6 @@ public class ArrayExceptionHandling {
 		}catch(ArrayIndexOutOfBoundsException e){
 			System.out.println(e);
 		}
-		System.out.println("ºñÁ¤»ó Á¾·áµÇÁö ¾Ê¾Ò½À´Ï´Ù.");
+		System.out.println("ë¹„ì •ìƒ ì¢…ë£Œë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.");
 	}
 }

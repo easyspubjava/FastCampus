@@ -11,13 +11,13 @@ public class PasswordTest {
 		public void setPassword(String password) throws PasswordException{
 			
 			if(password == null){
-				throw new PasswordException("ºñ¹Ğ¹øÈ£´Â null ÀÏ ¼ö ¾ø½À´Ï´Ù");
+				throw new PasswordException("ë¹„ë°€ë²ˆí˜¸ëŠ” null ì¼ ìˆ˜ ì—†ìŠµë‹ˆë‹¤");
 			}
 			else if( password.length() < 5){
-				throw new PasswordException("ºñ¹Ğ¹øÈ£´Â 5ÀÚ ÀÌ»óÀÌ¾î¾ß ÇÕ´Ï´Ù.");
+				throw new PasswordException("ë¹„ë°€ë²ˆí˜¸ëŠ” 5ì ì´ìƒì´ì–´ì•¼ í•©ë‹ˆë‹¤.");
 			}
 			else if (password.matches("[a-zA-Z]+")){
-				throw new PasswordException("ºñ¹Ğ¹øÈ£´Â ¼ıÀÚ³ª Æ¯¼ö¹®ÀÚ¸¦ Æ÷ÇÔÇØ¾ß ÇÕ´Ï´Ù.");
+				throw new PasswordException("ë¹„ë°€ë²ˆí˜¸ëŠ” ìˆ«ìë‚˜ íŠ¹ìˆ˜ë¬¸ìë¥¼ í¬í•¨í•´ì•¼ í•©ë‹ˆë‹¤.");
 			}
 			
 			this.password = password;
@@ -29,7 +29,7 @@ public class PasswordTest {
 			String password = null;
 			try {
 				test.setPassword(password);
-				System.out.println("¿À·ù ¾øÀ½1");
+				System.out.println("ì˜¤ë¥˜ ì—†ìŒ1");
 			} catch (PasswordException e) {
 				System.out.println(e.getMessage());
 			}
@@ -37,7 +37,7 @@ public class PasswordTest {
 			password = "abcd";
 			try {
 				test.setPassword(password);
-				System.out.println("¿À·ù ¾øÀ½2");
+				System.out.println("ì˜¤ë¥˜ ì—†ìŒ2");
 			} catch (PasswordException e) {
 				System.out.println(e.getMessage());
 			}
@@ -45,7 +45,7 @@ public class PasswordTest {
 			password = "abcde";
 			try {
 				test.setPassword(password);
-				System.out.println("¿À·ù ¾øÀ½3");
+				System.out.println("ì˜¤ë¥˜ ì—†ìŒ3");
 			} catch (PasswordException e) {
 				System.out.println(e.getMessage());
 			}
@@ -53,7 +53,7 @@ public class PasswordTest {
 			password = "abcde#1";
 			try {
 				test.setPassword(password);
-				System.out.println("¿À·ù ¾øÀ½4");
+				System.out.println("ì˜¤ë¥˜ ì—†ìŒ4");
 			} catch (PasswordException e) {
 				System.out.println(e.getMessage());
 			}

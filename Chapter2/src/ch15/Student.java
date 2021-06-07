@@ -17,6 +17,6 @@ public class Student {
 	}
 		
 	public void showInfo() {
-		System.out.println(studentName +"´ÔÀÇ ³²Àº µ·Àº " + money + "¿ø ÀÔ´Ï´Ù");
+		System.out.println(studentName +"ë‹˜ì˜ ë‚¨ì€ ëˆì€ " + money + "ì› ì…ë‹ˆë‹¤");
 	}
 }

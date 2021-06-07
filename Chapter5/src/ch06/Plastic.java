@@ -3,6 +3,6 @@ package ch06;
 public class Plastic {
 
 	public String toString() {
-		return "Àç·á´Â Plastic ÀÔ´Ï´Ù";
+		return "ìž¬ë£ŒëŠ” Plastic ìž…ë‹ˆë‹¤";
 	}
 }

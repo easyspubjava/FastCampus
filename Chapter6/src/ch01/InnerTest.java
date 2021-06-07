@@ -7,28 +7,28 @@ class OutClass {
 	private InClass inClass;
 	
 	public OutClass(){
-		inClass = new InClass(); // ³»ºÎ Å¬·¡½º »ı¼º
+		inClass = new InClass(); // ë‚´ë¶€ í´ë˜ìŠ¤ ìƒì„±
 	}
 	
 	class InClass{
 		
 		int inNum = 100;
-		//static int sInNum = 200;  //¿¡·¯ ³²
+		//static int sInNum = 200;  //ì—ëŸ¬ ë‚¨
 		
 		void inTest(){
-			System.out.println("OutClass num = " +num + "(¿ÜºÎ Å¬·¡½ºÀÇ ÀÎ½ºÅÏ½º º¯¼ö)");
-			System.out.println("OutClass sNum = " + sNum + "(¿ÜºÎ Å¬·¡½ºÀÇ ½ºÅÂÆ½ º¯¼ö)");
-			System.out.println("InClass inNum = " + inNum + "(³»ºÎ Å¬·¡½ºÀÇ ÀÎ½ºÅÏ½º º¯¼ö)");
+			System.out.println("OutClass num = " +num + "(ì™¸ë¶€ í´ë˜ìŠ¤ì˜ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜)");
+			System.out.println("OutClass sNum = " + sNum + "(ì™¸ë¶€ í´ë˜ìŠ¤ì˜ ìŠ¤íƒœí‹± ë³€ìˆ˜)");
+			System.out.println("InClass inNum = " + inNum + "(ë‚´ë¶€ í´ë˜ìŠ¤ì˜ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜)");
 		}
 		
-	    //static void sTest(){  //¿¡·¯ ³²
+	    //static void sTest(){  //ì—ëŸ¬ ë‚¨
 	    	
 	    //}
 		
 	}
 	
 	public void usingClass(){
-		inClass.inTest(); //³»ºÎ Å¬·¡½º º¯¼ö¸¦ »ç¿ëÇÏ¿© ¸Ş¼­µå È£ÃâÇÏ±â
+		inClass.inTest(); //ë‚´ë¶€ í´ë˜ìŠ¤ ë³€ìˆ˜ë¥¼ ì‚¬ìš©í•˜ì—¬ ë©”ì„œë“œ í˜¸ì¶œí•˜ê¸°
 	}
 	
 	static class InStaticClass{
@@ -36,19 +36,19 @@ class OutClass {
 		int inNum = 100;
 		static int sInNum = 200;
 		
-		void inTest(){   //Á¤Àû Å¬·¡½ºÀÇ ÀÏ¹İ ¸Ş¼­µå
-			//num += 10;    // ¿ÜºÎ Å¬·¡½ºÀÇ ÀÎ½ºÅÏ½º º¯¼ö´Â »ç¿ëÇÒ ¼ö ¾øÀ½.
-			System.out.println("InStaticClass inNum = " + inNum + "(³»ºÎ Å¬·¡½ºÀÇ ÀÎ½ºÅÏ½º º¯¼ö »ç¿ë)"); 
-			System.out.println("InStaticClass sInNum = " + sInNum + "(³»ºÎ Å¬·¡½ºÀÇ ½ºÅÂÆ½ º¯¼ö »ç¿ë)");
-			System.out.println("OutClass sNum = " + sNum + "(¿ÜºÎ Å¬·¡½ºÀÇ ½ºÅÂÆ½ º¯¼ö »ç¿ë)");
+		void inTest(){   //ì •ì  í´ë˜ìŠ¤ì˜ ì¼ë°˜ ë©”ì„œë“œ
+			//num += 10;    // ì™¸ë¶€ í´ë˜ìŠ¤ì˜ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ëŠ” ì‚¬ìš©í•  ìˆ˜ ì—†ìŒ.
+			System.out.println("InStaticClass inNum = " + inNum + "(ë‚´ë¶€ í´ë˜ìŠ¤ì˜ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ ì‚¬ìš©)"); 
+			System.out.println("InStaticClass sInNum = " + sInNum + "(ë‚´ë¶€ í´ë˜ìŠ¤ì˜ ìŠ¤íƒœí‹± ë³€ìˆ˜ ì‚¬ìš©)");
+			System.out.println("OutClass sNum = " + sNum + "(ì™¸ë¶€ í´ë˜ìŠ¤ì˜ ìŠ¤íƒœí‹± ë³€ìˆ˜ ì‚¬ìš©)");
 		}
 		
-		static void sTest(){  // Á¤Àû Å¬·¡½ºÀÇ static ¸Ş¼­µå
-			//num += 10;   // ¿ÜºÎ Å¬·¡½ºÀÇ ÀÎ½ºÅÏ½º º¯¼ö´Â »ç¿ëÇÒ ¼ö ¾øÀ½.
-			//inNum += 10; // ³»ºÎ Å¬·¡½ºÀÇ ÀÎ½ºÅÏ½º º¯¼ö´Â »ç¿ëÇÒ ¼ö ¾øÀ½
+		static void sTest(){  // ì •ì  í´ë˜ìŠ¤ì˜ static ë©”ì„œë“œ
+			//num += 10;   // ì™¸ë¶€ í´ë˜ìŠ¤ì˜ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ëŠ” ì‚¬ìš©í•  ìˆ˜ ì—†ìŒ.
+			//inNum += 10; // ë‚´ë¶€ í´ë˜ìŠ¤ì˜ ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ëŠ” ì‚¬ìš©í•  ìˆ˜ ì—†ìŒ
 			
-			System.out.println("OutClass sNum = " + sNum + "(¿ÜºÎ Å¬·¡½ºÀÇ ½ºÅÂÆ½ º¯¼ö »ç¿ë)");
-			System.out.println("InStaticClass sInNum = " + sInNum + "(³»ºÎ Å¬·¡½ºÀÇ ½ºÅÂÆ½ º¯¼ö »ç¿ë)");
+			System.out.println("OutClass sNum = " + sNum + "(ì™¸ë¶€ í´ë˜ìŠ¤ì˜ ìŠ¤íƒœí‹± ë³€ìˆ˜ ì‚¬ìš©)");
+			System.out.println("InStaticClass sInNum = " + sInNum + "(ë‚´ë¶€ í´ë˜ìŠ¤ì˜ ìŠ¤íƒœí‹± ë³€ìˆ˜ ì‚¬ìš©)");
 			
 		}
 	}	
@@ -58,23 +58,23 @@ public class InnerTest {
 
 	public static void main(String[] args) {
 	/*	OutClass outClass = new OutClass();
-		System.out.println("¿ÜºÎ Å¬·¡½º ÀÌ¿ëÇÏ¿© ³»ºÎ Å¬·¡½º ±â´É È£Ãâ");
-		outClass.usingClass();    // ³»ºÎ Å¬·¡½º ±â´É È£Ãâ
+		System.out.println("ì™¸ë¶€ í´ë˜ìŠ¤ ì´ìš©í•˜ì—¬ ë‚´ë¶€ í´ë˜ìŠ¤ ê¸°ëŠ¥ í˜¸ì¶œ");
+		outClass.usingClass();    // ë‚´ë¶€ í´ë˜ìŠ¤ ê¸°ëŠ¥ í˜¸ì¶œ
 	    System.out.println();
 	    
-		OutClass.InClass inClass = outClass.new InClass();   // ¿ÜºÎ Å¬·¡½º¸¦ ÀÌ¿ëÇÏ¿© ³»ºÎ Å¬·¡½º »ı¼º
-		System.out.println("¿ÜºÎ Å¬·¡½º º¯¼ö¸¦ ÀÌ¿ëÇÏ¿© ³»ºÎ Å¬·¡½º »ı¼º");
+		OutClass.InClass inClass = outClass.new InClass();   // ì™¸ë¶€ í´ë˜ìŠ¤ë¥¼ ì´ìš©í•˜ì—¬ ë‚´ë¶€ í´ë˜ìŠ¤ ìƒì„±
+		System.out.println("ì™¸ë¶€ í´ë˜ìŠ¤ ë³€ìˆ˜ë¥¼ ì´ìš©í•˜ì—¬ ë‚´ë¶€ í´ë˜ìŠ¤ ìƒì„±");
 		inClass.inTest();
 		
 		System.out.println();
 		*/
-		//¿ÜºÎ Å¬·¡½º »ı¼ºÇÏÁö ¾Ê°í ¹Ù·Î Á¤Àû ³»ºÎ Å¬·¡½º »ı¼º
+		//ì™¸ë¶€ í´ë˜ìŠ¤ ìƒì„±í•˜ì§€ ì•Šê³  ë°”ë¡œ ì •ì  ë‚´ë¶€ í´ë˜ìŠ¤ ìƒì„±
 		OutClass.InStaticClass sInClass = new OutClass.InStaticClass();  
-		System.out.println("Á¤Àû ³»ºÎ Å¬·¡½º ÀÏ¹İ ¸Ş¼­µå È£Ãâ");
+		System.out.println("ì •ì  ë‚´ë¶€ í´ë˜ìŠ¤ ì¼ë°˜ ë©”ì„œë“œ í˜¸ì¶œ");
 		sInClass.inTest();
 		System.out.println();
 		
-		System.out.println("Á¤Àû ³»ºÎ Å¬·¡½ºÀÇ ½ºÅÂÆ½ ¸Ş¼Òµå È£Ãâ");
+		System.out.println("ì •ì  ë‚´ë¶€ í´ë˜ìŠ¤ì˜ ìŠ¤íƒœí‹± ë©”ì†Œë“œ í˜¸ì¶œ");
 		OutClass.InStaticClass.sTest();
 	}
 

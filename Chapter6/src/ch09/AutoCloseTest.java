@@ -8,7 +8,7 @@ public class AutoCloseTest {
     	try (obj){
 			throw new Exception();
 		}catch(Exception e) {
-			System.out.println("¿¹¿Ü ºÎºÐ ÀÔ´Ï´Ù");
+			System.out.println("ì˜ˆì™¸ ë¶€ë¶„ ìž…ë‹ˆë‹¤");
 		}
 	}
 }

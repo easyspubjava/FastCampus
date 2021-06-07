@@ -3,10 +3,10 @@ package ch07;
 public class Powder extends Material{
 		
 	public void doPrinting() {
-		System.out.println("Powder Àç·á·Î Ãâ·ÂÇÕ´Ï´Ù");
+		System.out.println("Powder ìž¬ë£Œë¡œ ì¶œë ¥í•©ë‹ˆë‹¤");
 	}
 	
 	public String toString() {
-		return "Àç·á´Â Powder ÀÔ´Ï´Ù";
+		return "ìž¬ë£ŒëŠ” Powder ìž…ë‹ˆë‹¤";
 	}
 }

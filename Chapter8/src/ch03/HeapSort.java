@@ -74,7 +74,7 @@ public class HeapSort {
 		n = h.getHeapSize();
 		for(int i=1; i<=n; i++){    
 			data = h.deleteHeap();  
-			System.out.printf("\n Ãâ·Â : [%d]", data);
+			System.out.printf("\n ì¶œë ¥ : [%d]", data);
 		}
 	}
 }

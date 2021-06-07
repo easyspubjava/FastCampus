@@ -1,11 +1,11 @@
 package ch05;
 
 class MyGraph{
-    private int count;   //³ëµå ¼ö           
-    private int[][] vertexMatrix;  // matrix·Î ±×·¡ÇÁ Ç¥½Ã
-    private int[] distance;        // Æ¯Á¤ ³ëµå¿¡ ´ëÇÑ °¢ ³ëµåÀÇ ÃÖ´Ü °Å¸®
+    private int count;   //ë…¸ë“œ ìˆ˜           
+    private int[][] vertexMatrix;  // matrixë¡œ ê·¸ë˜í”„ í‘œì‹œ
+    private int[] distance;        // íŠ¹ì • ë…¸ë“œì— ëŒ€í•œ ê° ë…¸ë“œì˜ ìµœë‹¨ ê±°ë¦¬
     private boolean[] visited;     // alread visited???
-    private static int UNLIMIT = 999999999;  // ÃÊ±â°ª 
+    private static int UNLIMIT = 999999999;  // ì´ˆê¸°ê°’ 
     
     public MyGraph(int count){
         this.count = count;
@@ -27,7 +27,7 @@ class MyGraph{
         
         visited[from] = true;
         distance[from] = 0;
-        //¿¬°á³ëµå distance°»½Å
+        //ì—°ê²°ë…¸ë“œ distanceê°±ì‹ 
         for(int i= 0; i<count; i++){
             if(visited[from] && vertexMatrix[from][i] !=0){
                 distance[i] = vertexMatrix[from][i];
@@ -64,7 +64,7 @@ class MyGraph{
     	
     	for(int i = 0; i<count; i++) {
     		
-    		System.out.println(from + " ³ëµå·ÎºÎÅÍ " + i + " ³ëµåÀÇ ÃÖ´Ü °Å¸®´Â : " + distance[i]);
+    		System.out.println(from + " ë…¸ë“œë¡œë¶€í„° " + i + " ë…¸ë“œì˜ ìµœë‹¨ ê±°ë¦¬ëŠ” : " + distance[i]);
     	}
     }
 }

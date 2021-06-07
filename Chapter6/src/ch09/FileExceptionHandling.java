@@ -22,8 +22,8 @@ public class FileExceptionHandling {
 					e.printStackTrace();
 				}
 			}
-			System.out.println("Ç×»ó ¼öÇà µË´Ï´Ù.");
+			System.out.println("í•­ìƒ ìˆ˜í–‰ ë©ë‹ˆë‹¤.");
 		}
-		System.out.println("¿©±âµµ ¼öÇàµË´Ï´Ù.");
+		System.out.println("ì—¬ê¸°ë„ ìˆ˜í–‰ë©ë‹ˆë‹¤.");
 	}
 }

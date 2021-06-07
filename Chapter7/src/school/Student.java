@@ -4,12 +4,12 @@ import java.util.ArrayList;
 
 public class Student {
 	
-	private int studentId;    		//ÇĞ¹ø
-	private String studentName;		//ÀÌ¸§
-	private Subject majorSubject;	//ÁßÁ¡ °ú¸ñ
+	private int studentId;    		//í•™ë²ˆ
+	private String studentName;		//ì´ë¦„
+	private Subject majorSubject;	//ì¤‘ì  ê³¼ëª©
 	
-	//ÇĞ»ıÀÇ ¼ºÀû ¸®½ºÆ® 
-	//addSubjectSocre() ¸Ş¼­µå°¡ È£ÃâµÇ¸é ¸®½ºÆ®¿¡ Ãß°¡ µÊ
+	//í•™ìƒì˜ ì„±ì  ë¦¬ìŠ¤íŠ¸ 
+	//addSubjectSocre() ë©”ì„œë“œê°€ í˜¸ì¶œë˜ë©´ ë¦¬ìŠ¤íŠ¸ì— ì¶”ê°€ ë¨
 	private ArrayList<Score> scoreList = new ArrayList<Score>(); 
 	
 	public Student( int studentId, String studentName, Subject majorSubject){

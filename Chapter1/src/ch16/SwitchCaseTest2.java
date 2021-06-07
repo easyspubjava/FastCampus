@@ -8,16 +8,16 @@ public class SwitchCaseTest2 {
 		switch(medal) {
 		
 			case "Gold":
-				System.out.println("±İ¸Ş´Ş ÀÔ´Ï´Ù.");
+				System.out.println("ê¸ˆë©”ë‹¬ ì…ë‹ˆë‹¤.");
 				break;
 			case "Silver":
-				System.out.println("Àº¸Ş´Ş ÀÔ´Ï´Ù.");
+				System.out.println("ì€ë©”ë‹¬ ì…ë‹ˆë‹¤.");
 				break;
 			case "Bronze":
-				System.out.println("µ¿¸Ş´Ş ÀÔ´Ï´Ù.");
+				System.out.println("ë™ë©”ë‹¬ ì…ë‹ˆë‹¤.");
 				break;
 			default:
-				System.out.println("¸Ş´ŞÀÌ ¾ø½À´Ï´Ù.");
+				System.out.println("ë©”ë‹¬ì´ ì—†ìŠµë‹ˆë‹¤.");
 				break;
 		}
 

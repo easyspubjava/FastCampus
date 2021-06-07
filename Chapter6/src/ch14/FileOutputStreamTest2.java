@@ -8,19 +8,19 @@ public class FileOutputStreamTest2 {
 	public static void main(String[] args) throws IOException {
 		
 		FileOutputStream fos = new FileOutputStream("output2.txt",true);
-		try(fos){ //java 9 ºÎÅÍ Á¦°øµÇ´Â ±â´É
+		try(fos){ //java 9 ë¶€í„° ì œê³µë˜ëŠ” ê¸°ëŠ¥
 		
 			byte[] bs = new byte[26];
-			byte data = 65;        //'A' ÀÇ ¾Æ½ºÅ° °ª
-			for(int i = 0; i < bs.length; i++){  // A-Z ±îÁö ¹è¿­¿¡ ³Ö±â
+			byte data = 65;        //'A' ì˜ ì•„ìŠ¤í‚¤ ê°’
+			for(int i = 0; i < bs.length; i++){  // A-Z ê¹Œì§€ ë°°ì—´ì— ë„£ê¸°
 				bs[i] = data;
 				data++;
 			}
 			
-			fos.write(bs);  //¹è¿­ ÇÑ²¨¹ø¿¡ Ãâ·ÂÇÏ±â
+			fos.write(bs);  //ë°°ì—´ í•œêº¼ë²ˆì— ì¶œë ¥í•˜ê¸°
 		}catch(IOException e) {
 			e.printStackTrace();
 		}
-		System.out.println("Ãâ·ÂÀÌ ¿Ï·áµÇ¾ú½À´Ï´Ù.");
+		System.out.println("ì¶œë ¥ì´ ì™„ë£Œë˜ì—ˆìŠµë‹ˆë‹¤.");
 	}
 }

@@ -9,11 +9,11 @@ public class ArrayListTest {
 
 		ArrayList<Book> library = new ArrayList<Book>();
 		
-		library.add(new Book("ÅÂ¹é»ê¸Æ1", "Á¶Á¤·¡"));
-		library.add(new Book("ÅÂ¹é»ê¸Æ2", "Á¶Á¤·¡"));
-		library.add(new Book("ÅÂ¹é»ê¸Æ3", "Á¶Á¤·¡"));
-		library.add(new Book("ÅÂ¹é»ê¸Æ4", "Á¶Á¤·¡"));
-		library.add(new Book("ÅÂ¹é»ê¸Æ5", "Á¶Á¤·¡"));
+		library.add(new Book("íƒœë°±ì‚°ë§¥1", "ì¡°ì •ëž˜"));
+		library.add(new Book("íƒœë°±ì‚°ë§¥2", "ì¡°ì •ëž˜"));
+		library.add(new Book("íƒœë°±ì‚°ë§¥3", "ì¡°ì •ëž˜"));
+		library.add(new Book("íƒœë°±ì‚°ë§¥4", "ì¡°ì •ëž˜"));
+		library.add(new Book("íƒœë°±ì‚°ë§¥5", "ì¡°ì •ëž˜"));
 		
 		for(int i =0; i<library.size(); i++) {
 			library.get(i).showBookInfo();

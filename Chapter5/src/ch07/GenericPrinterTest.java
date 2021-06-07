@@ -6,12 +6,12 @@ public class GenericPrinterTest {
 
 		GenericPrinter<Powder> powderPrinter = new GenericPrinter<Powder>();
 		powderPrinter.setMaterial(new Powder());
-		Powder powder = powderPrinter.getMaterial(); // Çüº¯È¯ ÇÏÁö ¾ÊÀ½
+		Powder powder = powderPrinter.getMaterial(); // í˜•ë³€í™˜ í•˜ì§€ ì•ŠìŒ
 		System.out.println(powderPrinter);
 		
 		GenericPrinter<Plastic> plasticPrinter = new GenericPrinter<Plastic>();
 		plasticPrinter.setMaterial(new Plastic());
-		Plastic plastic = plasticPrinter.getMaterial(); // Çüº¯È¯ ÇÏÁö ¾ÊÀ½
+		Plastic plastic = plasticPrinter.getMaterial(); // í˜•ë³€í™˜ í•˜ì§€ ì•ŠìŒ
 		System.out.println(plasticPrinter);
 		
 	/*	GenericPrinter powderPrinter2 = new GenericPrinter();

@@ -23,7 +23,7 @@ public class UserInfoClient {
 		UserInfo userInfo = new UserInfo();
 		userInfo.setUserId("12345");
 		userInfo.setPasswd("!@#$%");
-		userInfo.setUserName("ÀÌ¼ø½Å");
+		userInfo.setUserName("ì´ìˆœì‹ ");
 		
 		
 		UserInfoDao userInfoDao = null;

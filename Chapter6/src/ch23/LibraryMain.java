@@ -8,9 +8,9 @@ class FastLibrary{
 	
 	public FastLibrary(){
 		
-		shelf.add("ÅÂ¹é»ê¸Æ 1");
-		shelf.add("ÅÂ¹é»ê¸Æ 2");
-		shelf.add("ÅÂ¹é»ê¸Æ 3");
+		shelf.add("íƒœë°±ì‚°ë§¥ 1");
+		shelf.add("íƒœë°±ì‚°ë§¥ 2");
+		shelf.add("íƒœë°±ì‚°ë§¥ 3");
 	}
 	
 	public synchronized String lendBook() throws InterruptedException{

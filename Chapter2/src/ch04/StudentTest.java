@@ -5,15 +5,15 @@ public class StudentTest {
 	public static void main(String[] args) {
 		
 		Student studentLee = new Student();
-		studentLee.studentName = "ÀÌ¼ø½Å";
-		studentLee.address = "¼­¿ï";
+		studentLee.studentName = "ì´ìˆœì‹ ";
+		studentLee.address = "ì„œìš¸";
 		
 		
 		studentLee.showStudentInfo();
 		
 		Student studentKim = new Student();
-		studentKim.studentName = "±èÀ¯½Å";
-		studentKim.address = "°æÁÖ";
+		studentKim.studentName = "ê¹€ìœ ì‹ ";
+		studentKim.address = "ê²½ì£¼";
 		
 		studentKim.showStudentInfo();
 		

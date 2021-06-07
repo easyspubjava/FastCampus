@@ -3,7 +3,7 @@ package ch02;
 public class MyArray {
 
 	int[] intArr;   	//int array
-	int count;  		//°³¼ö
+	int count;  		//ê°œìˆ˜
 		
 	public int ARRAY_SIZE;
 	public static final int ERROR_NUM = -999999999;
@@ -36,7 +36,7 @@ public class MyArray {
 	{
 		int i;
 		
-		if(count >= ARRAY_SIZE){  //²Ë Âù °æ¿ì
+		if(count >= ARRAY_SIZE){  //ê½‰ ì°¬ ê²½ìš°
 			System.out.println("not enough memory");
 			return;
 		}
@@ -47,7 +47,7 @@ public class MyArray {
 		}
 		
 		for( i = count-1; i >= position ; i--){
-			intArr[i+1]  = intArr[i];        // ÇÏ³ª¾¿ ÀÌµ¿
+			intArr[i+1]  = intArr[i];        // í•˜ë‚˜ì”© ì´ë™
 		}
 		
 		intArr[position] = num;
@@ -94,7 +94,7 @@ public class MyArray {
 	public int getElement(int position)
 	{
 		if(position < 0 || position > count-1){
-			System.out.println("°Ë»ö À§Ä¡ ¿À·ù. ÇöÀç ¸®½ºÆ®ÀÇ °³¼ö´Â " + count +"°³ ÀÔ´Ï´Ù.");
+			System.out.println("ê²€ìƒ‰ ìœ„ì¹˜ ì˜¤ë¥˜. í˜„ì¬ ë¦¬ìŠ¤íŠ¸ì˜ ê°œìˆ˜ëŠ” " + count +"ê°œ ì…ë‹ˆë‹¤.");
 			return ERROR_NUM;
 		}
 		return intArr[position];
@@ -103,7 +103,7 @@ public class MyArray {
 	public void printAll()
 	{
 		if(count == 0){
-			System.out.println("Ãâ·ÂÇÒ ³»¿ëÀÌ ¾ø½À´Ï´Ù.");
+			System.out.println("ì¶œë ¥í•  ë‚´ìš©ì´ ì—†ìŠµë‹ˆë‹¤.");
 			return;
 		}
 			

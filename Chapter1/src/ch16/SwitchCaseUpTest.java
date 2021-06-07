@@ -8,23 +8,23 @@ public class SwitchCaseUpTest {
 		
 		int day = switch (month) {
 	    	case 1, 3, 5, 7, 8, 10,12 -> {
-	    		System.out.println("ÇÑ ´ŞÀº 31ÀÏÀÔ´Ï´Ù."); 
+	    		System.out.println("í•œ ë‹¬ì€ 31ì¼ì…ë‹ˆë‹¤."); 
 	    		yield 31;
 	    	}
 	    	case 4,6,9,11 -> {
-	    		System.out.println("ÇÑ ´ŞÀº 30ÀÏÀÔ´Ï´Ù."); 
+	    		System.out.println("í•œ ë‹¬ì€ 30ì¼ì…ë‹ˆë‹¤."); 
 	    		yield 30;
 	    	}
 	    	case 2 ->{
-	    		System.out.println("ÇÑ ´ŞÀº 28ÀÏÀÔ´Ï´Ù.");
+	    		System.out.println("í•œ ë‹¬ì€ 28ì¼ì…ë‹ˆë‹¤.");
 	    		yield 28;
 	    	}
 	    	default->{
-	    		System.out.println("Á¸ÀçÇÏÁö ¾Ê´Â ´Ş ÀÔ´Ï´Ù."); 
+	    		System.out.println("ì¡´ì¬í•˜ì§€ ì•ŠëŠ” ë‹¬ ì…ë‹ˆë‹¤."); 
 	    		yield 0;
 	    	}
 		};
 		
-		System.out.println(month + "¿ùÀº " + day + "ÀÏÀÔ´Ï´Ù.");
+		System.out.println(month + "ì›”ì€ " + day + "ì¼ì…ë‹ˆë‹¤.");
 	}
 }

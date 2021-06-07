@@ -4,13 +4,13 @@ public class LeastJob implements Scheduler{
 
 	@Override
 	public void getNextCall() {
-		System.out.println("»ó´ã ÀüÈ­¸¦ ¼ø¼­´ë·Î ´ë±â¿­¿¡¼­ °¡Á®¿É´Ï´Ù.");
+		System.out.println("ìƒë‹´ ì „í™”ë¥¼ ìˆœì„œëŒ€ë¡œ ëŒ€ê¸°ì—´ì—ì„œ ê°€ì ¸ì˜µë‹ˆë‹¤.");
 		
 	}
 
 	@Override
 	public void sendCallToAgent() {
-		System.out.println("ÇöÀç »ó´ã¾÷¹«°¡ ¾ø°Å³ª »ó´ã´ë±â°¡ °¡Àå ÀûÀº »ó´ã¿ø¿¡°Ô ÇÒ´çÇÕ´Ï´Ù.");
+		System.out.println("í˜„ì¬ ìƒë‹´ì—…ë¬´ê°€ ì—†ê±°ë‚˜ ìƒë‹´ëŒ€ê¸°ê°€ ê°€ì¥ ì ì€ ìƒë‹´ì›ì—ê²Œ í• ë‹¹í•©ë‹ˆë‹¤.");
 		
 	}
 

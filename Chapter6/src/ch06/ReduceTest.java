@@ -16,14 +16,14 @@ public class ReduceTest {
 
 	public static void main(String[] args) {
 
-		String[] greetings = {"¾È³çÇÏ¼¼¿ä~~~", "hello", "Good morning", "¹İ°©½À´Ï´Ù^^"};
+		String[] greetings = {"ì•ˆë…•í•˜ì„¸ìš”~~~", "hello", "Good morning", "ë°˜ê°‘ìŠµë‹ˆë‹¤^^"};
 		
 		System.out.println(Arrays.stream(greetings).reduce("", (s1, s2)-> 
 		                          {if (s1.getBytes().length >= s2.getBytes().length) 
 				                                  return s1;
 		                          else return s2;})); 
 		
-		String str = Arrays.stream(greetings).reduce(new CompareString()).get(); //BinaryOperator¸¦ ±¸ÇöÇÑ Å¬·¡½º ÀÌ¿ë
+		String str = Arrays.stream(greetings).reduce(new CompareString()).get(); //BinaryOperatorë¥¼ êµ¬í˜„í•œ í´ë˜ìŠ¤ ì´ìš©
 		System.out.println(str);
 		                          
 	}

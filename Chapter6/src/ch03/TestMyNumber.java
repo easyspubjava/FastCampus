@@ -3,9 +3,9 @@ package ch03;
 public class TestMyNumber {
 
 	public static void main(String[] args) {
-		MyNumber max = (x, y)->(x>= y)? x:y; // ¶÷´Ù½ÄÀ» ÀÎÅÍÆäÀÌ½º ÀÚ·áÇü max º¯¼ö¿¡ ´ëÀÔ
+		MyNumber max = (x, y)->(x>= y)? x:y; // ëŒë‹¤ì‹ì„ ì¸í„°í˜ì´ìŠ¤ ìë£Œí˜• max ë³€ìˆ˜ì— ëŒ€ì…
 
-		System.out.println(max.getMax(10, 20));// ÀÎÅÍÆäÀÌ½º ÀÚ·áÇü º¯¼ö·Î ÇÔ¼ö È£Ãâ
+		System.out.println(max.getMax(10, 20));// ì¸í„°í˜ì´ìŠ¤ ìë£Œí˜• ë³€ìˆ˜ë¡œ í•¨ìˆ˜ í˜¸ì¶œ
 			
 	}
 }

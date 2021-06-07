@@ -9,8 +9,8 @@ public class Person {
 	public String gender;
 	
 	public void showPersonInfo() {
-		System.out.println("Å°°¡ " + height + "ÀÌ°í, ¸ö¹«°Ô°¡ " + weight + "Å³·ÎÀÎ "+ gender + "ÀÌ ÀÖ½À´Ï´Ù.");
-		System.out.println("ÀÌ¸§Àº " + name + "ÀÌ°í, ³ªÀÌ´Â " + age + "¼¼ÀÔ´Ï´Ù" );
+		System.out.println("í‚¤ê°€ " + height + "ì´ê³ , ëª¸ë¬´ê²Œê°€ " + weight + "í‚¬ë¡œì¸ "+ gender + "ì´ ìˆìŠµë‹ˆë‹¤.");
+		System.out.println("ì´ë¦„ì€ " + name + "ì´ê³ , ë‚˜ì´ëŠ” " + age + "ì„¸ì…ë‹ˆë‹¤" );
 	}
 	
 }

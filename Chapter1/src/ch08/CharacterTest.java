@@ -15,10 +15,10 @@ public class CharacterTest {
 		System.out.println(ch3);
 		System.out.println((char)ch3);
 		
-		//char ch4 = -66;  À½¼ö´Â ´ëÀÔ ÇÒ ¼ö ¾øÀ½
+		//char ch4 = -66;  ìŒìˆ˜ëŠ” ëŒ€ì… í•  ìˆ˜ ì—†ìŒ
 		
 		
-		char ch5 = 'ÇÑ';
+		char ch5 = 'í•œ';
 		char ch6 = '\uD55C';
 		
 		System.out.println(ch5);

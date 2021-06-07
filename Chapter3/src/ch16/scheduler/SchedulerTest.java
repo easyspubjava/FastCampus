@@ -6,10 +6,10 @@ public class SchedulerTest {
 
 	public static void main(String[] args) throws IOException {
 
-		System.out.println("ÀüÈ­ »ó´ã¿ø ÇÒ´ç ¹æ½ÄÀ» ¼±ÅÃÇÏ¼¼¿ä");
-		System.out.println("R : ÇÑ¸í¾¿ Â÷·Ê´ë·Î");
-		System.out.println("L : ´ë±â°¡ ÀûÀº »ó´ã¿ø ¿ì¼±");
-		System.out.println("P : ¿ì¼±¼øÀ§°¡ ³ôÀº °í°´¿ì¼± ¼÷·Ãµµ ³ôÀº »ó´ã¿ø");
+		System.out.println("ì „í™” ìƒë‹´ì› í• ë‹¹ ë°©ì‹ì„ ì„ íƒí•˜ì„¸ìš”");
+		System.out.println("R : í•œëª…ì”© ì°¨ë¡€ëŒ€ë¡œ");
+		System.out.println("L : ëŒ€ê¸°ê°€ ì ì€ ìƒë‹´ì› ìš°ì„ ");
+		System.out.println("P : ìš°ì„ ìˆœìœ„ê°€ ë†’ì€ ê³ ê°ìš°ì„  ìˆ™ë ¨ë„ ë†’ì€ ìƒë‹´ì›");
 		
 		int ch = System.in.read();
 		Scheduler scheduler = null;
@@ -24,7 +24,7 @@ public class SchedulerTest {
 			scheduler = new PriorityAllocation();
 		}
 		else {
-			System.out.println("Áö¿øµÇÁö ¾Ê´Â ±â´ÉÀÔ´Ï´Ù.");
+			System.out.println("ì§€ì›ë˜ì§€ ì•ŠëŠ” ê¸°ëŠ¥ì…ë‹ˆë‹¤.");
 			return;
 		}
 		

@@ -5,18 +5,18 @@ import utils.Define;
 
 
 public class Subject {
-	private String subjectName;  //°ú¸ñ ÀÌ¸§
-	private int subjectId;      // °ú¸ñ °íÀ¯¹øÈ£
-	private int gradeType;      // °ú¸ñ Æò°¡ ¹æ¹ı ±âº»Àº A,B ¹æ½Ä
+	private String subjectName;  //ê³¼ëª© ì´ë¦„
+	private int subjectId;      // ê³¼ëª© ê³ ìœ ë²ˆí˜¸
+	private int gradeType;      // ê³¼ëª© í‰ê°€ ë°©ë²• ê¸°ë³¸ì€ A,B ë°©ì‹
 	
-	//¼ö°­ ½ÅÃ»ÇÑ ÇĞ»ı ¸®½ºÆ®
-	//register() ¸Ş¼­µå¸¦ È£ÃâÇÏ¸é ¸®½ºÆ®¿¡ Ãß°¡ µÊ
+	//ìˆ˜ê°• ì‹ ì²­í•œ í•™ìƒ ë¦¬ìŠ¤íŠ¸
+	//register() ë©”ì„œë“œë¥¼ í˜¸ì¶œí•˜ë©´ ë¦¬ìŠ¤íŠ¸ì— ì¶”ê°€ ë¨
 	private ArrayList<Student> studentList = new ArrayList<Student>();
 	
 	public Subject(String subjectName, int subjectId){
 		this.subjectName = subjectName;
 		this.subjectId = subjectId;
-		this.gradeType = Define.AB_TYPE;   //±âº»ÀûÀ¸·Î A, B Å¸ÀÔ
+		this.gradeType = Define.AB_TYPE;   //ê¸°ë³¸ì ìœ¼ë¡œ A, B íƒ€ì…
 	}
 
 	public String getSubjectName() {
@@ -51,7 +51,7 @@ public class Subject {
 		this.gradeType = gradeType;
 	}
 
-	public void register(Student student){  //¼ö°­½ÅÃ»
+	public void register(Student student){  //ìˆ˜ê°•ì‹ ì²­
 		studentList.add(student);
 	}
 }

@@ -4,14 +4,14 @@ public class CustomerTest {
 
 	public static void main(String[] args) {
 		Customer customerLee = new Customer();
-		customerLee.setCustomerName("ÀÌ¼ø½Å");
+		customerLee.setCustomerName("ì´ìˆœì‹ ");
 		customerLee.setCustomerID(10010);
 		customerLee.bonusPoint = 1000;
 		System.out.println(customerLee.showCustomerInfo());
 			
 			
 		VIPCustomer customerKim = new VIPCustomer();
-		customerKim.setCustomerName("±èÀ¯½Å");
+		customerKim.setCustomerName("ê¹€ìœ ì‹ ");
 		customerKim.setCustomerID(10020);
 		customerKim.bonusPoint = 10000;
 		System.out.println(customerKim.showCustomerInfo());

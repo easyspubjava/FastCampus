@@ -13,6 +13,6 @@ public class Taxi {
 	}
 	
 	public void showTaxInfo() {
-		System.out.println(companyName + "ÅÃ½Ã ¼öÀÔÀº " + money + "¿ø ÀÔ´Ï´Ù.");
+		System.out.println(companyName + "íƒì‹œ ìˆ˜ì…ì€ " + money + "ì› ì…ë‹ˆë‹¤.");
 	}
 }

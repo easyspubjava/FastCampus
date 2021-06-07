@@ -8,10 +8,10 @@ public class MemberHashMapTest {
 		MemberHashMap memberHashMap = new MemberHashMap();
 		
 		
-		Member memberLee = new Member(1001, "ÀÌ¼ø½Å");
-		Member memberKim = new Member(1002, "±èÀ¯½Å");
-		Member memberKang = new Member(1003, "°­°¨Âù");
-		Member memberHong = new Member(1004, "È«±æµ¿");
+		Member memberLee = new Member(1001, "ì´ìˆœì‹ ");
+		Member memberKim = new Member(1002, "ê¹€ìœ ì‹ ");
+		Member memberKang = new Member(1003, "ê°•ê°ì°¬");
+		Member memberHong = new Member(1004, "í™ê¸¸ë™");
 		
 		memberHashMap.addMember(memberLee);
 		memberHashMap.addMember(memberKim);
